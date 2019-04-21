@@ -1,0 +1,27 @@
+{
+  "name": "@eropple/typeorm-bunyan-logger",
+  "version": "0.1.0",
+  "description": "Provides a TypeORM logging adapter for Bunyan.",
+  "main": "dist",
+  "author": "Ed Ropple",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eropple/typeorm-bunyan-logger"
+  },
+  "private": false,
+  "scripts": {
+    "build": "yarn exec tsc",
+    "prepare": "yarn build"
+  },
+  "peerDependencies": {
+    "typeorm": ">=0.2.0 <1.0.0"
+  },
+  "devDependencies": {
+    "typeorm": ">=0.2.0 <1.0.0",
+    "typescript": "^3.2.4"
+  },
+  "dependencies": {
+    "@types/bunyan": "^1.8.6"
+  }
+}
